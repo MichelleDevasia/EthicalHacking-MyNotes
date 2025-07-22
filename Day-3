@@ -4,10 +4,7 @@ Example-in python
 a = "".join([chr(i) for i in [97, 100, 109, 105, 110, 49, 50, 51]])
 print("The password is:", a)
 B.	
-Type	Meaning	Example
-Static Analysis	Analyzing code or files without running them	Reading source code or scanning a file for viruses
-Dynamic Analysis	Analyzing a program while it runs	Running a suspicious program in a sandbox to see what it does
-
+![image alt](https://github.com/MichelleDevasia/EthicalHacking-MyNotes/blob/3edc4e7c366732b0f3a99b298e121d1c666727fc/image.png)
 C.	Linux commands and directories
 Linux commands-These are instructions you type in the terminal to tell Linux to do something.
 Example-ls,cd,mkdir,rm,pwd
