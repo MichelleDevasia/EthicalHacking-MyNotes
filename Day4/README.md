@@ -16,12 +16,7 @@ Types-LAN,WAN,MAN,PAN
 4.	What is an IP Address?
 An IP Address (short for Internet Protocol Address) is a unique identifier assigned to each device connected to a network. It allows devices to communicate with each other over the internet or a local network.
 
-Feature	                    IPv4	                                                                IPv6
-Address Size	            32 bits	                                                              128 bits
-Address Format	    Decimal, dotted format                                             	Hexadecimal, colon-separated 
-Total Addresses        	~4.3 billion	                                                     ~340 undecillion (2^128)
-Header Size	               20 bytes	                                                             40 bytes
-Security	           Optional (IPSec optional)	                                    Built-in security (IPSec mandatory)
+![Image Alt](https://github.com/MichelleDevasia/EthicalHackingNotes-Christ/blob/ea830d1bb8dd0262bbbf484d2df119da089f98e8/Screenshot%202025-07-25%20220501.png)
 
 
 5.	What is a MAC ID (or MAC Address)?
@@ -29,24 +24,10 @@ MAC stands for Media Access Control. A MAC ID (also called MAC address) is a uni
 •	48-bit (6 bytes) address
 6.	 
    
-Feature	                           TCP	                                                                                      UDP
-Connection          Type	Connection-oriented (establishes a link)	                                            Connectionless (no setup needed)
-Reliability	         Reliable (ensures data is delivered in order)                                        	Unreliable (no guarantee of delivery/order)
-Speed                	Slower (due to error checking, handshakes)	                                                    Faster (less overhead)
-Use Case	                  Web browsing, emails, file transfers	                                              Video streaming, gaming, VoIP, DNS
-Packet Order	                  Maintains order	                                                                      No order is guaranteed
-Examples	               HTTP, HTTPS, FTP, SMTP                                                                	DNS, DHCP, YouTube live, Zoom calls
-
+![Image Alt](https://github.com/MichelleDevasia/EthicalHackingNotes-Christ/blob/ea830d1bb8dd0262bbbf484d2df119da089f98e8/Screenshot%202025-07-25%20220534.png)
 
 7.
-Term	                                             Meaning (Simplified)	                                                                           Example
-Port Frequency	                     How often a particular port is scanned or attacked.                                          Port 22 (SSH) is scanned frequently.
-                                              High frequency = more targeted.	
-Payload	                   The actual malicious content delivered during an attack (virus, script, command).	                    Malware file or reverse shell script.
-Backdoor	                           A hidden entry left by an attacker to come back later.                                        	A secret account or open port.
-Attack Timeline	                The sequence of steps an attacker follows during the attack.	                                    Info gathering → Exploit → Backdoor.
-Information Gathering	          The first step: attacker collects info about system, ports, services.	                                Using tools like Nmap, Whois, etc.
-
+![Image Alt](https://github.com/MichelleDevasia/EthicalHackingNotes-Christ/blob/ea830d1bb8dd0262bbbf484d2df119da089f98e8/c1.png)
 ┌────────────────────────┐
 │ 1. Information Gathering│
 │   - Scanning ports     │
