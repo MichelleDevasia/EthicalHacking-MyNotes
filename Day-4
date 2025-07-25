@@ -1,0 +1,93 @@
+1.	NAT-Network Address Translation
+NAT is a method used in networks to translate private IP addresses (used within a local network) into a public IP address (used on the internet), and vice versa.
+NAT important    ---------Hides internal IP addresses
+		             ---------Limits exposure to the internet
+		             ---------Conserves IPv4 addresses
+2.	What is a subnet?
+A subnet (short for subnetwork) is a smaller, logically divided section of a larger network (like a LAN or the internet). Subnets are created to organize, secure, and efficiently manage IP addresses within a network.
+Importance      --------- Improved security
+                --------- Access control
+		            --------- Containment
+
+3.	What is a Network 
+A network is a group of connected computers and devices that can communicate and share resources like files, internet access, printers, etc.
+Types-LAN,WAN,MAN,PAN
+
+4.	What is an IP Address?
+An IP Address (short for Internet Protocol Address) is a unique identifier assigned to each device connected to a network. It allows devices to communicate with each other over the internet or a local network.
+
+Feature	                    IPv4	                                                                IPv6
+Address Size	            32 bits	                                                              128 bits
+Address Format	    Decimal, dotted format                                             	Hexadecimal, colon-separated 
+Total Addresses        	~4.3 billion	                                                     ~340 undecillion (2^128)
+Header Size	               20 bytes	                                                             40 bytes
+Security	           Optional (IPSec optional)	                                    Built-in security (IPSec mandatory)
+
+
+5.	What is a MAC ID (or MAC Address)?
+MAC stands for Media Access Control. A MAC ID (also called MAC address) is a unique hardware address assigned to a device’s network interface card (NIC). 
+•	48-bit (6 bytes) address
+6.	 
+   
+Feature	                           TCP	                                                                                      UDP
+Connection          Type	Connection-oriented (establishes a link)	                                            Connectionless (no setup needed)
+Reliability	         Reliable (ensures data is delivered in order)                                        	Unreliable (no guarantee of delivery/order)
+Speed                	Slower (due to error checking, handshakes)	                                                    Faster (less overhead)
+Use Case	                  Web browsing, emails, file transfers	                                              Video streaming, gaming, VoIP, DNS
+Packet Order	                  Maintains order	                                                                      No order is guaranteed
+Examples	               HTTP, HTTPS, FTP, SMTP                                                                	DNS, DHCP, YouTube live, Zoom calls
+
+
+7.
+Term	                                             Meaning (Simplified)	                                                                           Example
+Port Frequency	                     How often a particular port is scanned or attacked.                                          Port 22 (SSH) is scanned frequently.
+                                              High frequency = more targeted.	
+Payload	                   The actual malicious content delivered during an attack (virus, script, command).	                    Malware file or reverse shell script.
+Backdoor	                           A hidden entry left by an attacker to come back later.                                        	A secret account or open port.
+Attack Timeline	                The sequence of steps an attacker follows during the attack.	                                    Info gathering → Exploit → Backdoor.
+Information Gathering	          The first step: attacker collects info about system, ports, services.	                                Using tools like Nmap, Whois, etc.
+
+┌────────────────────────┐
+│ 1. Information Gathering│
+│   - Scanning ports     │
+│   - Detecting OS       │
+│   - Finding open ports │
+└────────────┬───────────┘
+             ↓
+┌────────────────────────┐
+│ 2. Exploitation         │
+│   - Use vulnerabilities│
+│   - Send exploit code  │
+│   (Includes the payload)│
+└────────────┬───────────┘
+             ↓
+┌────────────────────────┐
+│ 3. Payload Execution    │
+│   - Runs malicious code│
+│   - Gain access        │
+└────────────┬───────────┘
+             ↓
+┌────────────────────────┐
+│ 4. Backdoor Installed   │
+│   - Hidden access kept │
+│   - Open port / script │
+└────────────┬───────────┘
+             ↓
+┌────────────────────────┐
+│ 5. Persistence & Control│
+│   - Repeated access    │
+│   - Remote control     │
+└────────────────────────┘
+9.	What is an API? 
+API stands for Application Programming Interface.
+It is a bridge that lets two different software programs talk to each other and share data or functions.
+Understanding- You (the user) send a request (menu order), the waiter (API) takes it to the kitchen (server), and brings the food (response) back to you.
+
+10.	Applications and Websites introduced-
+•	The Wayback Machine lets you view old versions of websites — as they looked at specific times in the past.
+•	A bug bounty app is a platform where ethical hackers (a.k.a. bug bounty hunters) test websites or apps for security flaws, report them, and get paid if the bug is valid.
+•	"Have I Been Pwned?" tells you if your personal data (email, password, etc.) was leaked or stolen in known hacks or cyber attacks.
+
+11.	Nmap (Network Mapper) is a network scanning tool used to discover hosts, services, ports, and vulnerabilities on a network.
+
+
