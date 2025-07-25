@@ -28,37 +28,8 @@ MAC stands for Media Access Control. A MAC ID (also called MAC address) is a uni
 
 7.
 ![Image Alt](https://github.com/MichelleDevasia/EthicalHackingNotes-Christ/blob/ea830d1bb8dd0262bbbf484d2df119da089f98e8/c1.png)
-┌────────────────────────┐
-│ 1. Information Gathering│
-│   - Scanning ports     │
-│   - Detecting OS       │
-│   - Finding open ports │
-└────────────┬───────────┘
-             ↓
-┌────────────────────────┐
-│ 2. Exploitation         │
-│   - Use vulnerabilities│
-│   - Send exploit code  │
-│   (Includes the payload)│
-└────────────┬───────────┘
-             ↓
-┌────────────────────────┐
-│ 3. Payload Execution    │
-│   - Runs malicious code│
-│   - Gain access        │
-└────────────┬───────────┘
-             ↓
-┌────────────────────────┐
-│ 4. Backdoor Installed   │
-│   - Hidden access kept │
-│   - Open port / script │
-└────────────┬───────────┘
-             ↓
-┌────────────────────────┐
-│ 5. Persistence & Control│
-│   - Repeated access    │
-│   - Remote control     │
-└────────────────────────┘
+[1. Information Gathering] ➝ [2. Scanning Ports] ➝ [3. Finding Open Ports] ➝ [4. OS Detection] ➝ [5. Port Frequency Analysis] ➝ [6. Deliver Payload] ➝ [7. Exploit / Backdoor Access] ➝ [8. Privilege Escalation] ➝ [9. Maintain Access] ➝ [10. Clean Up / Cover Tracks]
+
 9.	What is an API? 
 API stands for Application Programming Interface.
 It is a bridge that lets two different software programs talk to each other and share data or functions.
